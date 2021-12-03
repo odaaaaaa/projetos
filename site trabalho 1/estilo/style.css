@@ -45,9 +45,8 @@ main h2{
 }
 img.segunda{
     padding-left: 0px;
-    width: 300px;
-    min-width: 250;
-    height: 300px;
+    max-width: 250;
+    max-height: 300px;
 }
 img.terceira{
     padding-left: 0px;
