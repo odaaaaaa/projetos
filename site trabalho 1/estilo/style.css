@@ -7,6 +7,10 @@ body{
     background-color: #ffffff;
     color: inherit;
 }
+img.iconewtt{
+   width:  56px;
+   height: 56px;
+}
 header{
     align-items: center;
     justify-content: center;
