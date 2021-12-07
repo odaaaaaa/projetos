@@ -8,8 +8,12 @@ body{
     color: inherit;
 }
 img.iconewtt{ 
-   width:  56px;
-   height: 56px;
+   border-right: 10px;
+   width:  60px;
+   height: 60px;
+   position: absolute;
+   left: 95%;
+   top: 200%;
 }
 header{
     align-items: center;
@@ -35,8 +39,11 @@ header a{
 header img{
     padding-right: 43px;
     height: 43px;
-    display: block;}
-    
+    display: block;
+}
+nav{
+
+}
 img.primeiro{
     width: 100%;
     height: 50%;
