@@ -15,6 +15,7 @@ img.iconewtt{
    left: 95%;
    top: 200%;
 }
+
 header{
     align-items: center;
     justify-content: center;
@@ -41,8 +42,19 @@ header img{
     height: 43px;
     display: block;
 }
-nav{
+div.search{
+    display: flex;
+    border-radius: 5px;
+    text-transform: none;
+    height: 40px;
+    padding: 8px 15px 8px 19px;
+    background: rgba(0,0,0,.16);
+}
+div.imagemp{
+    margin-left: 0%;
+}
 
+nav{
 }
 img.primeiro{
     width: 100%;
