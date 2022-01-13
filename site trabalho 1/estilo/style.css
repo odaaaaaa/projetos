@@ -11,12 +11,14 @@
 
 header{
     padding: 30px;
-    
+    background: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 div#logo{
-    height: 43px;
-    width: 43px;
+   
 }
 
 nav{
@@ -33,7 +35,7 @@ section#inicio{
     background-image: url("../imagens/M2922035-1.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 150%;
+    background-size: 200%;
     background-attachment: fixed;
     object-fit: cover;
     
@@ -74,4 +76,8 @@ section#categoria h2{
     font-weight: 600;
     font-size: 1.6rem;
     color: #000000c7;
+}
+
+img.amarelo{
+    padding-right: 50px;
 }
