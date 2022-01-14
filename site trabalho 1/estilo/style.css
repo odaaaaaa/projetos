@@ -10,6 +10,7 @@
 }
 
 header{
+    width: 100%;
     padding: 30px;
     background: #fff;
     position: -webkit-sticky;
@@ -17,8 +18,11 @@ header{
     top: 0;
 }
 
-div#logo{
-   
+img#logo{
+  width: 70px;
+  height: 43px;
+  float: left;
+
 }
 
 nav{
@@ -34,9 +38,9 @@ section#inicio{
     display: block;
     background-image: url("../imagens/M2922035-1.png");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top;
     background-size: 200%;
-    background-attachment: fixed;
+    background-attachment: ;
     object-fit: cover;
     
 }
@@ -78,6 +82,34 @@ section#categoria h2{
     color: #000000c7;
 }
 
-img.amarelo{
-    padding-right: 50px;
+img.itemcategoria{
+    padding-right: 10px;
+    display: inline-block;
+    width: 528px;
+    height: 623px;
+    object-fit: cover;
+}
+div.categoria p{
+    padding-top: 5px;
+    padding-left: 212px;
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #000000d8;;
+
+}
+
+div.categoria p:hover{
+    text-decoration: none;
+}
+div.categoria p.pclasse{
+    padding-left: 755px;
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #000000d8;;
+}
+
+.vestidoc{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
 }
