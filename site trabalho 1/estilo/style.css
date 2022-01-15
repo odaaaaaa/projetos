@@ -36,7 +36,7 @@ nav a{
 
 section#inicio{
     display: block;
-    background-image: url("../imagens/M2922035-1.png");
+    background-image: url("../imagens/vestido-neon.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 200%;
@@ -83,29 +83,13 @@ section#categoria h2{
 }
 
 img.itemcategoria{
-    padding-right: 10px;
+    padding: 20px 0px 20px 20px;
     display: inline-block;
-    width: 528px;
-    height: 623px;
+    width: 500px;
+    height: 600px;
     object-fit: cover;
-}
-div.categoria p{
-    padding-top: 5px;
-    padding-left: 212px;
-    font-size: 1.2em;
-    text-decoration: underline;
-    color: #000000d8;;
-
-}
-
-div.categoria p:hover{
-    text-decoration: none;
-}
-div.categoria p.pclasse{
-    padding-left: 755px;
-    font-size: 1.2em;
-    text-decoration: underline;
-    color: #000000d8;;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSXViRtjsY9mG5JZELG6Ya-huYI89K61k4g&usqp=CAU")
+    
 }
 
 .vestidoc{
