@@ -37,10 +37,9 @@ section#inicio{
     display: block;
     background-image: url("../imagens/vestido-neon.jpg");
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 200%;
+    background-position: center top;
+    background-size: cover;
     object-fit: cover;
-    
 }
 
 div.inicio{
@@ -86,11 +85,16 @@ section#categoria{
 }
 
 div.categoria1{
+    padding-bottom: 20px;
     text-align: center;
     text-decoration: underline;
     font-family: 'Metrophobic', sans-serif;
     font-size: 1.1em;
     color: #545454a4;
+}
+
+div.categoria1:hover{
+    text-decoration: none;
 }
 
 div.categoria2{
@@ -101,6 +105,10 @@ div.categoria2{
     color: #545454a4;
 }
 
+div.categoria2:hover{
+    text-decoration: none;
+}
+
 div.categoria3{
     text-align: center;
     text-decoration: underline;
@@ -109,14 +117,55 @@ div.categoria3{
     color: #545454a4;
 }
 
+div.categoria3:hover{
+    text-decoration: none;
+}
+
 img.itemcategoria{
-    border: 20px solid #292929;
+    border: 25px solid #292929;
     border-image-source: url("../imagens/depositphotos_64379235-stock-photo-landscape-in-lilac-tones.jpg");
     border-image-slice: 10;
     max-width: 100%;
     display: block;
-    margin: 10px;
+    margin: 10px 50px 10px 50px;
     width: 346px;
     height: 484px;
     object-fit: cover;
+}
+
+div.final{
+    padding: 50px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    display: column;
+}
+
+ul{
+    padding-left: 50px;
+    padding-bottom: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+li{
+    display: list-item;
+    font-family: 'Metrophobic', sans-serif;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+.listprincipal{
+    color: #545454;
+    padding-bottom: 10px;
+    font-size: 1em;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.listprincipal0{
+    color: #545454;
+    font-size: 1em;
+    line-height: 2rem;
+    text-decoration: none;
 }
