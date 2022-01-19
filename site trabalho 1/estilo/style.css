@@ -22,7 +22,6 @@ img#logo{
   width: 70px;
   height: 43px;
   float: left;
-
 }
 
 nav{
@@ -40,7 +39,6 @@ section#inicio{
     background-repeat: no-repeat;
     background-position: top;
     background-size: 200%;
-    background-attachment: ;
     object-fit: cover;
     
 }
@@ -68,32 +66,57 @@ div.inicio p{
 div.inicio h2{
     color: #000000;
     font-size: 1.5em;
-}
-section#categoria{
+}   
+
+div#h2flex h2{
     padding-top: 50px;
     padding-left: 50px;
-}
-
-section#categoria h2{
-    padding-bottom: 20px;
     font: inherit;
     font-weight: 600;
-    font-size: 1.6rem;
-    color: #000000c7;
+    font-size: 1.6em;
+    line-height: 3.6rem;
+    color: #292929;
+}
+
+section#categoria{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.categoria1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 1.1em;
+    color: #545454a4;
+}
+
+div.categoria2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 1.1em;
+    color: #545454a4;
+}
+
+div.categoria3{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 1.1em;
+    color: #545454a4;
 }
 
 img.itemcategoria{
-    padding: 20px 0px 20px 20px;
-    display: inline-block;
-    width: 500px;
-    height: 600px;
+    border: 20px solid #292929;
+    border-image-source: url("../imagens/depositphotos_64379235-stock-photo-landscape-in-lilac-tones.jpg");
+    border-image-slice: 10;
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+    width: 346px;
+    height: 484px;
     object-fit: cover;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSXViRtjsY9mG5JZELG6Ya-huYI89K61k4g&usqp=CAU")
-    
-}
-
-.vestidoc{
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-
 }
