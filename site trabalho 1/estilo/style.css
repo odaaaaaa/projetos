@@ -150,6 +150,18 @@ img.itemcategoria{
     object-fit: cover;
 }
 
+section#polosechome{
+    display: flex;
+
+}
+
+img.polohome{
+    display: inline-block;
+    width: 798px;
+    height: 599px;
+    object-fit: cover;
+}
+
 div.final{
     padding: 50px;
     font-size: 14px;
@@ -172,7 +184,7 @@ li:hover{
     text-decoration: underline;
 }
 
-.listprincipal{
+li.listprincipal{
     color: #545454;
     padding-bottom: 10px;
     font-size: 1em;
@@ -180,7 +192,7 @@ li:hover{
     text-decoration: none;
 }
 
-.listprincipal0{
+li.listprincipal0{
     color: #545454;
     font-size: 1em;
     line-height: 2rem;
