@@ -85,11 +85,28 @@ div.container{
     height: 100%;
 }
 
+div.container{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
 .block{
     position: relative;
-    width: 580px;
+    width:  580px;
     height: 460px;
     margin: 10px 300px 20px 80px;
+}
+
+.block-1 h1
+.block-3 h1
+.block-5 h1{
+    bottom: 0;
+    right: -60px;
+}
+
+.block-2 h1
+.block-4 h1{
+    right: -60px;
 }
 
 .container h1{
@@ -101,27 +118,28 @@ div.container{
 }
 
 .block-1{
-    background: url(img-one.jpeg) no-repeat 50% 50%;
+    background-image:url("../imagens/img-one.jpeg");
     background-size: cover;
+    background-repeat: 50% 50%;
 }
 
 .block-2{
-    background: url(img-two.jpeg) no-repeat 50% 50%;
+    background-image: url("../imagens/img-two.jpeg");
     background-size: cover;
 }
 
 .block-3{
-    background: url(img-three.jpeg) no-repeat 50% 50%;
+    background-image: url("../imagens/img-three.jpeg");
     background-size: cover;
 }
 
 .block-4{
-    background: url(img-four.jpeg) no-repeat 50% 50%;
+    background-image: url("../imagens/img-four.jpeg");
     background-size: cover;
 }
 
 .block-5{
-    background: url(img-five.jpeg) no-repeat 50% 50%;
+    background-image: url("../imagens/img-five.jpeg");
     background-size: cover;
 }
 
@@ -202,6 +220,7 @@ div.divpolohome{
 }
 
 img.polohome{
+    
     display: inline-block;
     width: 100%;
     min-height: 100%;
