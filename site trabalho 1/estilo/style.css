@@ -78,14 +78,14 @@ div.inicio h2{
     font-size: 1.5em;
 }
 
-div.container{
+section.container{
     background-color: #161616;
     overflow: hidden;
     width: 100%;
     height: 100%;
 }
 
-div.container{
+section.container{
     margin-top: 200px;
     margin-left: 200px;
 }
