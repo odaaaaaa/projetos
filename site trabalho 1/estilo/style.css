@@ -1,10 +1,15 @@
 @charset "UTF-8"
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
-@keyframes jumping{
-    from {transform: translatey(-15px);}
-    50% {transform: translatey(0);}
-    to {transform: translateY(-15px);}
-}
+@keyframes pulsar{
+    0%{
+        width: 56px;
+        height: 56px;
+    }
+    100%{
+        width: 65px;
+        height: 65px;
+    }
+}  
 
 *{  margin: 0;
     padding: 0;
@@ -17,7 +22,7 @@
 header{
     width: 100%;
     padding: 30px;
-    background: #fff;
+    background: #ffffff;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -57,9 +62,10 @@ div.inicio button{
     font-size: 17px;
     color: #000000b9;
     border-radius: 20px;
+    border: 1px solid #fff;
     background-color: #ffffff;
     width: 120px;
-    height: 40px;
+    min-height: 45px;
 }
 
 div.inicio p{
@@ -72,16 +78,51 @@ div.inicio h2{
     font-size: 1.5em;
 }
 
-div#iconrolagem{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+div.container{
+    background-color: #161616;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
-div#iconrolagem img{
-    width: 75px;
-    margin-bottom: 20px;
-    animation: jumping 1s linear infinite;
+.block{
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+
+.container h1{
+    position: absolute;
+    font-family: "Monument Extended";
+    font-weight: lighter;
+    font-size: 64px;
+    color: #fff;
+}
+
+.block-1{
+    background: url(img-one.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-2{
+    background: url(img-two.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-3{
+    background: url(img-three.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-4{
+    background: url(img-four.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5{
+    background: url(img-five.jpeg) no-repeat 50% 50%;
+    background-size: cover;
 }
 
 div#h2flex h2{
@@ -101,40 +142,40 @@ section#categoria{
     flex-wrap: wrap;
 }
 
-div.categoria1{
+div.categoria1 p{
     padding-bottom: 20px;
     text-align: center;
     text-decoration: underline;
-    font-family: 'Metrophobic', sans-serif;
+    font-family: inherit;
+    color: #292929d0;
     font-size: 1.1em;
-    color: #545454a4;
 }
 
-div.categoria1:hover{
+div.categoria1 p:hover{
     text-decoration: none;
 }
 
-div.categoria2{
+div.categoria2 p{
     text-align: center;
     text-decoration: underline;
-    font-family: 'Metrophobic', sans-serif;
     font-size: 1.1em;
-    color: #545454a4;
+    font-family: inherit;
+    color: #292929d0;;
 }
 
-div.categoria2:hover{
+div.categoria2 p:hover{
     text-decoration: none;
 }
 
-div.categoria3{
+div.categoria3 p{
     text-align: center;
     text-decoration: underline;
-    font-family: 'Metrophobic', sans-serif;
     font-size: 1.1em;
-    color: #545454a4;
+    font-family: inherit;
+    color: #292929d0;
 }
 
-div.categoria3:hover{
+div.categoria3 p:hover{
     text-decoration: none;
 }
 
@@ -151,15 +192,47 @@ img.itemcategoria{
 }
 
 section#polosechome{
-    display: flex;
+}
 
+div.divpolohome{
+    /*background-color: #ffa07a68;*/
+    padding: 50px;
+    display: flex;
+    align-items: center;
 }
 
 img.polohome{
     display: inline-block;
-    width: 798px;
-    height: 599px;
+    width: 100%;
+    min-height: 100%;
     object-fit: cover;
+}
+
+div.polohomeescrita{
+    padding-left: 100px;
+}
+
+div.polohomeescrita h2{
+    font-size: 1.6em;
+    font-family: 'Metrophobic', sans-serif;
+    color: #292929ee;
+    padding-bottom: 10px;
+}
+
+div.polohomeescrita p{
+    padding-bottom: 20px;
+    font-family: inherit;
+    color: #292929d0;
+}
+
+div.polohomeescrita button{
+    color: #fff;
+    background-color: #292929;
+    border-radius: 27px;
+    border: 1px solid #fff;
+    min-height: 40px;
+    width: 110px;
+    border-color: #545454;
 }
 
 div.final{
@@ -197,4 +270,22 @@ li.listprincipal0{
     font-size: 1em;
     line-height: 2rem;
     text-decoration: none;
+}
+
+img#iconwttps{
+    display: inline-block;
+    position: fixed;
+    outline: none;
+    bottom: 10px;
+    right: 10px;
+    width: 56px;
+    height: 56px;
+    animation: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
 }
