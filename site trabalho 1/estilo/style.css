@@ -84,6 +84,7 @@ section#carouselimagem{
     top: 5vh;
     bottom: 5vh;
     left: 50vh;
+    box-shadow: 2px 1px 5px #292929;
 }
 
 div#itemscarousel{
@@ -109,8 +110,8 @@ div#itemscarousel img{
 }
 
 div#itemscarousel h1{
-    position: relative;
-    bottom: 8.5vh;
+    position: absolute;
+    bottom: 1vh;
     left: 5px;
     font-family:"Monument Extended";
     font-weight: lighter;
@@ -172,8 +173,8 @@ div.categoria3 p:hover{
 }
 
 img.itemcategoria{
-    border: 25px solid #292929;
-    border-image-source: url("../imagens/depositphotos_64379235-stock-photo-landscape-in-lilac-tones.jpg");
+    border: 15px solid ;
+    /*border-image-source: url("../imagens/depositphotos_64379235-stock-photo-landscape-in-lilac-tones.jpg");*/
     border-image-slice: 10;
     max-width: 100%;
     display: block;
