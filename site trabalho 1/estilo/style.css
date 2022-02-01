@@ -45,7 +45,7 @@ nav a{
 
 section#inicio{
     display: block;
-    background-image: url("../imagens/vestido-neon.jpg");
+    background-image: url("https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Library-Sites-LacosteContent/pt_BR/dwcd5bd506/ss21/Brazil_SS21/WindowBR/lacoste-classicos-home-desk.jpg?imwidth=1665&impolicy=custom");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -66,6 +66,13 @@ div.inicio button{
     background-color: #ffffff;
     width: 120px;
     min-height: 45px;
+}
+
+div.inicio button:hover{
+    background-color: #292929;
+    border-color: #545454;
+    color: #fff;
+    transition: 0.7s;
 }
 
 div.inicio p{
@@ -130,14 +137,16 @@ div#h2flex h2{
 
 section#categoria{
     padding-left: 50px;
+}
+
+div#categoriaall{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 div.categoria1 p{
     padding-bottom: 20px;
-    text-align: center;
+    padding-left: 55px;
     text-decoration: underline;
     font-family: inherit;
     color: #292929d0;
@@ -149,7 +158,7 @@ div.categoria1 p:hover{
 }
 
 div.categoria2 p{
-    text-align: center;
+    padding-left: 55px;
     text-decoration: underline;
     font-size: 1.1em;
     font-family: inherit;
@@ -161,8 +170,8 @@ div.categoria2 p:hover{
 }
 
 div.categoria3 p{
-    text-align: center;
     text-decoration: underline;
+    padding-left: 55px;
     font-size: 1.1em;
     font-family: inherit;
     color: #292929d0;
@@ -173,9 +182,6 @@ div.categoria3 p:hover{
 }
 
 img.itemcategoria{
-    border: 15px solid ;
-    /*border-image-source: url("../imagens/depositphotos_64379235-stock-photo-landscape-in-lilac-tones.jpg");*/
-    border-image-slice: 10;
     max-width: 100%;
     display: block;
     margin: 10px 50px 10px 50px;
@@ -190,6 +196,54 @@ div#h2foryou h2{
     margin-left: 6vh;
     font-size: 1.6em;
     color: #292929f6;
+}
+
+section#foryou{
+    max-width: 100vw;
+    position: relative;
+}
+
+div#para-voce{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+section#foryou img{
+    margin-bottom: 5px;
+    object-fit: cover;
+    width: 525px;
+    height: 525px;
+}
+
+div.itemvoce{
+    margin: 5px 0px 0px 50px;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
+.pforyou{
+    padding-left: 30px;
+    font-size: 16px;
+    color: #292929;
+    font-family: inherit;
+}
+
+.pforyou:hover{
+    text-decoration: underline;
+}
+
+p.valorparavc{
+    padding: 10px 0px 0px 30px;
+    color: #545454;
+    font-weight: bold;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+section#polohome{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 div.divpolohome{
@@ -227,11 +281,18 @@ div.polohomeescrita p{
 div.polohomeescrita button{
     color: #fff;
     background-color: #292929;
-    border-radius: 27px;
+    border-radius: 20px;
     border: 1px solid #fff;
-    min-height: 40px;
-    width: 110px;
+    min-height: 45px;
+    width: 120px;
     border-color: #545454;
+}
+
+div.polohomeescrita button:hover{
+    background-color: #ffffff;
+    border-color: #fff;
+    color: #292929;
+    transition: 0.7s;
 }
 
 div.final{
