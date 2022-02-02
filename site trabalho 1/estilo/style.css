@@ -62,10 +62,11 @@ div.inicio button{
     font-size: 17px;
     color: #000000b9;
     border-radius: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     background-color: #ffffff;
     width: 120px;
     min-height: 45px;
+    cursor: pointer;
 }
 
 div.inicio button:hover{
@@ -208,19 +209,24 @@ div#para-voce{
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 
 section#foryou img{
     margin-bottom: 5px;
     object-fit: cover;
-    width: 525px;
-    height: 525px;
+    width: 350x;
+    height: 400px;
 }
 
 div.itemvoce{
-    margin: 5px 0px 0px 50px;
+    margin: 5px 0px 0px 20px;
     scroll-snap-align: center;
-    scroll-behavior: smooth;
+}
+
+div.itemvoce1{
+    margin: 5px 0px 0px 6vh;
+    scroll-snap-align: center;
 }
 
 .pforyou{
@@ -282,18 +288,18 @@ div.polohomeescrita button{
     color: #fff;
     background-color: #292929;
     border-radius: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #292929;
     min-height: 45px;
     width: 120px;
-    border-color: #545454;
+    cursor: pointer;
 }
 
 div.polohomeescrita button:hover{
-    background-color: #ffffff;
-    border-color: #fff;
+    background-color: #fff;
+    border-color: #ffffff;
     color: #292929;
     transition: 0.7s;
-}
+}   
 
 div.final{
     padding: 50px;
@@ -349,3 +355,68 @@ img#iconwttps{
     animation-fill-mode: none;
     animation-play-state: running;
 }
+
+section#saleh2section{
+    display: block;
+    margin: 13vh 0vh 13vh 0vh;
+}
+
+div#saleh2div h2{
+    text-align: center;
+    font-size: 2em;
+    font-family:"Monument Extended";
+}
+
+section#salesection{
+    width: 98vw;
+}
+
+section#salesection2{
+    width: 98vw;
+    margin-top: 50px;
+}
+
+div#saleitemsdiv{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div#saleitemsdiv img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+div.saleitem1{
+    margin: 5.6px;
+}
+
+p.saleitemp{
+    margin: 5.6px;
+    font-size: 0.9em;
+    font-family: inherit;
+    color: #292929
+}
+
+p.saleitemp:hover{
+    text-decoration: underline;
+}
+
+p.salepreço{
+    color: #26504c;
+    font-family:"Monument Extended";
+    font-size: 1em;
+    margin: 5.9px;
+}
+
+div.saledesconto{
+    background-color: #0d564d;
+    color: #fff;
+    border-radius: 5px;
+    width: 8.8em;
+    height: 2em;
+    padding: 5px;
+    margin: 5.6px;
+    font-size: 0.8em;
+}
+
