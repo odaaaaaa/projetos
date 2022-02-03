@@ -364,7 +364,8 @@ section#saleh2section{
 div#saleh2div h2{
     text-align: center;
     font-size: 2em;
-    font-family:"Monument Extended";
+    font-family:Arial, Helvetica, sans-serif;
+    color: #292929;
 }
 
 section#salesection{
@@ -406,7 +407,7 @@ p.salepreço{
     color: #26504c;
     font-family:"Monument Extended";
     font-size: 1em;
-    margin: 5.9px;
+    margin: 5.6px;
 }
 
 div.saledesconto{
@@ -420,3 +421,31 @@ div.saledesconto{
     font-size: 0.8em;
 }
 
+section#femininoh2section{
+    display: block;
+    margin: 5vh 0vh 10vh 5vh;
+}
+
+div#femininoh2div h2{
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #292929;
+}
+
+div#resultadofeminino{
+    margin: 0px 0px 10px 30px;
+}
+
+
+div#resultadofeminino p{
+    font-size: 1em;
+    font-family: inherit;
+    color: #292929;
+}
+
+p.femininopreço{
+    color: #545454;
+    font-weight: bold;
+    font-family: 'Metrophobic', sans-serif;
+    margin-left: 5.6px;
+}
