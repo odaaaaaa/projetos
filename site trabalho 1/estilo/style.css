@@ -260,7 +260,6 @@ div.divpolohome{
 }
 
 img.polohome{
-    
     display: inline-block;
     width: 100%;
     min-height: 100%;
@@ -356,6 +355,8 @@ img#iconwttps{
     animation-play-state: running;
 }
 
+/*Pagina Sale*/
+
 section#saleh2section{
     display: block;
     margin: 13vh 0vh 13vh 0vh;
@@ -369,12 +370,14 @@ div#saleh2div h2{
 }
 
 section#salesection{
-    width: 98vw;
+    display: block;
+    margin: 0px 30px 0px 30px;
+    
 }
 
 section#salesection2{
-    width: 98vw;
-    margin-top: 50px;
+    display: block;
+    margin: 50px 30px 0px 30px;;
 }
 
 div#saleitemsdiv{
@@ -383,17 +386,14 @@ div#saleitemsdiv{
 }
 
 div#saleitemsdiv img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
     object-fit: cover;
 }
 
-div.saleitem1{
-    margin: 5.6px;
-}
-
 p.saleitemp{
-    margin: 5.6px;
+    margin: 7px 0px 0px 20px;
     font-size: 0.9em;
     font-family: inherit;
     color: #292929
@@ -407,7 +407,7 @@ p.salepreço{
     color: #26504c;
     font-family:"Monument Extended";
     font-size: 1em;
-    margin: 5.6px;
+    margin: 10px 0px 0px 20px;
 }
 
 div.saledesconto{
@@ -417,9 +417,11 @@ div.saledesconto{
     width: 8.8em;
     height: 2em;
     padding: 5px;
-    margin: 5.6px;
+    margin: 0px 0px 0px 20px;
     font-size: 0.8em;
 }
+
+/*Pagina Feminino*/
 
 section#femininoh2section{
     display: block;
@@ -447,5 +449,122 @@ p.femininopreço{
     color: #545454;
     font-weight: bold;
     font-family: 'Metrophobic', sans-serif;
+    margin: 10px 0px 0px 20px;
+}
+
+/*Pagina Vestidos*/
+
+section#vestidossectionhead{
+    display: block;
+    margin: 5vh 0vh 10vh 0vh;
+}
+
+div#vestidosdivhead{
+    display: flex;
+}
+
+div.vestidositemhead img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div#vestidosh2epdivhead{
+    margin-left: 4%;
+}
+
+h2#vestidosh2divhead{
+    color: #292929;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+p#vestidospdivhead{
+    color: #292929;
+    font-family: inherit;
+    line-height: 1.2em;
+    margin-bottom: 40%;
+}
+
+div#vestidositemsdivhead{
+    display: flex;
+}
+
+div#vestidositemsdivhead img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+div.vestidosdesconto{
+    background-color: #0d564d;
+    color: #fff;
+    border-radius: 5px;
+    width: 8.8em;
+    height: 2em;
+    padding: 5px;
+    margin: 5.6px;
+    font-size: 0.8em;
+}
+
+p.vestidositemphead{
     margin-left: 5.6px;
+    font-size: 0.9em;
+    font-family: inherit;
+    color: #292929
+}
+
+p.vestidositemphead:hover{
+    text-decoration: underline;
+}
+
+p.vestidospreçohead{
+    color: #26504c;
+    font-family:"Monument Extended";
+    font-size: 1em;
+    margin: 5.6px;
+}
+
+section#vestidossectionbody{
+    display: block;
+    margin: 0px 30px 10px 30px;
+}
+
+div#vestidosdivbody{
+    display: flex;
+    flex-wrap: row;
+    flex-flow: row wrap;
+}
+
+div#vestidosdivbody{
+    display: flex;
+    flex-wrap: row;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+div.vestidositems img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+p.vestidodes{
+    margin: 10px 0px 0px 20px;
+    font-size: 1em;
+    font-family: inherit;
+    color: #292929;
+}
+
+p.vestidodes:hover{
+    text-decoration: underline;
+}
+
+p.vestidospreço{
+    margin: 10px 0px 0px 20px;
+    color: #545454;
+    font-weight: bold;
+    font-family: 'Metrophobic', sans-serif;
 }
