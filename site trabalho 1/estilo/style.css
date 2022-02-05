@@ -357,6 +357,17 @@ img#iconwttps{
 
 /*Pagina Sale*/
 
+div.inicioicon{
+    margin: 5vh 0vh 3vh 5vh;;
+}
+
+div.inicioicon a{
+    color: #292929a0;
+    font-size: 0.8em;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 section#saleh2section{
     display: block;
     margin: 13vh 0vh 13vh 0vh;
@@ -425,7 +436,7 @@ div.saledesconto{
 
 section#femininoh2section{
     display: block;
-    margin: 5vh 0vh 10vh 5vh;
+    margin: 0vh 0vh 10vh 5vh;
 }
 
 div#femininoh2div h2{
@@ -567,4 +578,143 @@ p.vestidospreço{
     color: #545454;
     font-weight: bold;
     font-family: 'Metrophobic', sans-serif;
+}
+
+/*Página Saias*/
+
+section#saiassectionhead{
+    display: block;
+    margin: 5vh 0vh 10vh 0vh;
+}
+
+div#saiasdivhead{
+    display: flex;
+    margin: 5vh 0vh 10vh 0vh;
+}
+
+div#saiasdivhead img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div#saiash2epdivhead{
+    margin-left: 4%;
+}
+
+h2#saiash2divhead{
+    color: #292929;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+p#saiaspdivhead{
+    color: #292929;
+    font-family: inherit;
+    line-height: 1.2em;
+    margin-bottom: 40%;
+}
+
+div#saiasitemdivhead{
+    display: block;
+}
+
+div#saiasitemdivhead img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+section#saiassectionbody{
+    display: block;
+    margin: 0px 30px 10px 30px;
+}
+
+section#saiassectionbody2{
+    display: block;
+    margin: 30px 30px 10px 30px;
+}
+
+div#saiasdivbody{
+    display: flex;
+    flex-wrap: row;
+    flex-flow: row wrap;
+}
+
+div.saiasitems img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+/*Parte de blusas*/
+
+section#blusassectionhead{
+    display: block;
+    margin: 5vh 0vh 10vh 0vh;
+}
+
+div#blusasdivhead{
+    display: flex;
+    margin: 5vh 0vh 10vh 0vh;
+}
+
+div.blusasdivhead img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div#blusash2epdivhead{
+    display: block;
+    margin-left: 4%;
+}
+
+h2#blusash2divhead{
+    color: #292929;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+p#blusaspdivhead{
+    color: #292929;
+    font-family: inherit;
+    line-height: 1.2em;
+    margin-bottom: 40%;
+}
+
+div#saiasitemsdivhead{
+    display: block;
+}
+
+div#saiasitemsdivhead img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+section#blusassectionbody{
+    display: block;
+    margin: 0px 30px 10px 30px;
+}
+
+section#blusassectionbody2{
+    display: block;
+    margin: 30px 30px 10px 30px;
+}
+
+div#blusasdivbody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+div#blusasdivbody img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
