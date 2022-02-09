@@ -757,6 +757,13 @@ p.pcompra{
     font-family: inherit;
 }
 
+p.pcompratype2{
+    margin: 50px 0px 15px 15vh;
+    color: #292929de;
+    font-size: 1.2em;
+    font-family: inherit;
+}
+
 p.comprapreço{
     margin: 0px 0px 0px 15vh;
     font-size: 15px;
