@@ -45,7 +45,7 @@ nav a{
 
 section#inicio{
     display: block;
-    background-image: url("https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Library-Sites-LacosteContent/pt_BR/dwcd5bd506/ss21/Brazil_SS21/WindowBR/lacoste-classicos-home-desk.jpg?imwidth=1665&impolicy=custom");
+    background-image: url("https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Library-Sites-LacosteContent/pt_BR/dwd49258f1/ss21/Brazil_SS21/StoryBR/chapter-1-story%20banner-desk.jpg?imwidth=1065&impolicy=custom");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -79,10 +79,12 @@ div.inicio button:hover{
 div.inicio p{
     padding-top: 10px;
     padding-bottom: 20px;
+    color: #fff;
+    font-size: 1.05em;
 }
 
 div.inicio h2{
-    color: #000000;
+    color: #ffffff;
     font-size: 1.5em;
 }
 
@@ -305,31 +307,61 @@ div#divuniversoh2{
     margin: 7% 0 20px 6vh;
 }
 
-section#sectionuniverso{
-    display: block;
-    margin: 0 4% 0 4%;
-}
-
-div#divuniverso{
-    display: flex;
-    flex-wrap: row;
-    flex-flow: row wrap;
-}
-
-div#divuniverso img{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-}
-
-.itemuniverso1{
-    margin-right: vh;
-}
-
 div#divuniversoh2 h2{
     font-family: 'Metrophobic', sans-serif;
     font-size: 1.6em;
     color: #292929f6;
+}
+
+section#sectionuniverso{
+    display: block;
+    margin: 0 0 0 4%;
+}
+
+div#divuniverso{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div#divuniverso img{
+    display: block;
+    max-height: 460px;
+    max-width: 460px;
+    object-fit: cover;
+}
+
+.itemuniverso1{
+    margin-bottom: ;
+}
+
+div#divh2ebuttonuniverso{
+    position: relative;
+    top: -28%;
+    left: 1%;
+}
+
+div#divh2ebuttonuniverso h2{
+    font-size: 1.6em;
+    font-family: 'Metrophobic', sans-serif;
+    color: #292929f1;
+    margin-bottom: 7%;
+}
+
+div#divh2ebuttonuniverso button{
+    color: #fff;
+    background-color: #292929;
+    border-radius: 30px;
+    width: 80px;
+    height: 45px;
+    border: 1px solid #545454;
+    cursor: pointer;
+}
+
+div#divh2ebuttonuniverso button:hover{
+    transition: 0.7s;
+    color: #292929;
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 div.final{
