@@ -43,6 +43,27 @@ nav a{
     text-decoration: none;
 }
 
+div.search-box{
+    display: inline-block;
+}
+
+div.search-box:hover > .search-txt{
+    width: 240px;
+}
+
+div.search-box img{
+    width: 20px;
+    height: 20px;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    width: 0;
+    transition: .5s;
+}
+
 section#inicio{
     display: block;
     background-image: url("https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Library-Sites-LacosteContent/pt_BR/dwd49258f1/ss21/Brazil_SS21/StoryBR/chapter-1-story%20banner-desk.jpg?imwidth=1065&impolicy=custom");
