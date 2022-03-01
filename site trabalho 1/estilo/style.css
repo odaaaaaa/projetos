@@ -618,18 +618,18 @@ div#saleh2div h2{
 
 section#salesection{
     display: block;
-    margin: 0px 30px 0px 30px;
-    
 }
 
 section#salesection2{
     display: block;
-    margin: 50px 30px 0px 30px;;
+    margin: 50px 0px 0px 0px;;
 }
 
 div#saleitemsdiv{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div#saleitemsdiv img{
@@ -775,13 +775,15 @@ p.vestidospreçohead{
 
 section#vestidossectionbody{
     display: block;
-    margin: 0px 30px 10px 30px;
+    margin: 0px 0px 10px 0px;
 }
 
 div#vestidosdivbody{
     display: flex;
     flex-wrap: row;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div#vestidosdivbody{
@@ -864,18 +866,20 @@ div#saiasitemdivhead img{
 
 section#saiassectionbody{
     display: block;
-    margin: 0px 30px 10px 30px;
+    margin: 0px 0px 10px 0px;
 }
 
 section#saiassectionbody2{
     display: block;
-    margin: 30px 30px 10px 30px;
+    margin: 30px 0px 10px 0px;
 }
 
 div#saiasdivbody{
     display: flex;
     flex-wrap: row;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div.saiasitems img{
@@ -894,7 +898,6 @@ section#blusassectionhead{
 
 div#blusasdivhead{
     display: flex;
-    margin: 5vh 0vh 10vh 0vh;
 }
 
 div.blusasdivhead img{
@@ -934,18 +937,20 @@ div#saiasitemsdivhead img{
 
 section#blusassectionbody{
     display: block;
-    margin: 0px 30px 10px 30px;
+    margin: 0px 0px 10px 0px;
 }
 
 section#blusassectionbody2{
     display: block;
-    margin: 30px 30px 10px 30px;
+    margin: 30px 0px 10px 0px;
 }
 
 div#blusasdivbody{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div#blusasdivbody img{
