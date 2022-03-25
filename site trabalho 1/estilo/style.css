@@ -699,6 +699,55 @@ p.femininopreço{
     margin: 10px 0px 0px 20px;
 }
 
+section.sectionprosseguirlistas{
+    display: block;
+    margin: 10% 0 3% 0;
+}
+
+div.divprosseguirlistas{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.itemlistaprosseguir{
+    margin: 5px;
+}
+
+div.itemlistaprosseguir div{
+    text-align: center;
+    border-radius: 50%;
+    color: #292929;
+    width: 38px;
+    height: 38px;
+    padding: 10px 6px 10px 5px;
+    transition: 0.4s;
+}
+
+div.itemlistaprosseguir div:hover{
+    background-color: #292929;
+    color: #fff;
+}
+div.itemlistaprosseguir1 div{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #292929;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    padding: 10px 6px 10px 5px;
+}
+
+div.itemlistaprosseguir3 div{
+    text-align: center;
+    border-radius: 50%;
+    color: #292929;
+    width: 38px;
+    height: 38px;
+    padding: 10px 6px 10px 5px;
+}
+
 /*Pagina Vestidos*/
 
 section#vestidossectionhead{
